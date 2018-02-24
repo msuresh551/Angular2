@@ -1,0 +1,28 @@
+﻿<style>
+    div {
+        text-align: center;
+        text-decoration: solid;
+        text-decoration-color: blue;
+      font-size:large;
+    }
+</style>
+<p style="color:cornflowerblue;">This is Tag Stlye</p>
+<div>This is Inline Stlye</div>
+
+<h1> {{ name }} </h1>
+<h3> {{ 'Name =' +name }}</h3>
+<h3> {{ 10+20+30 }} </h3>
+<h3> {{ name ? name : 'No name specified' }} </h3>
+<img src='{{ link }}' />
+<!--<h1>'full Name = '+ getFullName()</h1>-->
+
+<table>
+    <tr>
+        <td> Name </td>
+        <td>{{name}}</td>
+    </tr>
+    <tr>
+        <td> E-mail </td>
+        <td>{{email}}</td>
+    </tr>
+</table>
